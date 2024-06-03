@@ -1,6 +1,5 @@
 # Migration Hotspots: Where Filipinos, Chinese, Japanese and Vietnamese Settle in the United States
 Data visualization on migration hotspots of where Filipinos, Chinese, Japanese and Vietnamese settled in the United States
-**Website: [https://cse442.pages.cs.washington.edu/24wi/a3/im-migrants/](https://cse442.pages.cs.washington.edu/24wi/a3/im-migrants/)**
 
 **Team members:**
 - Betty C.
