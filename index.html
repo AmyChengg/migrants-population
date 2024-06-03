@@ -24,12 +24,23 @@
     
         <h2>Team members:</h2>
         <ul>
-            <li>Betty Cheng (bettyc1)</li>
-            <li>Amy Cheng (amyc1)</li>
-            <li>Aaleah Mendoza (aalmarie)</li>
-            <li>Ha Vi Duong (viduong)</li>
+            <li>Betty Cheng</li>
+            <li>Amy Cheng</li>
+            <li>Aaleah Mendoza</li>
+            <li>Ha Vi Duong</li>
         </ul>
-        <p>Observable Notebook: <a href="https://observablehq.com/d/2822e82adfa94aba">Click here to see our visualization!</a></p>
+      
+        <div id="observablehq-chart-b165abec"></div>
+        <p>Credit: <a href="https://observablehq.com/d/2822e82adfa94aba">Migration Hotspots: Where Filipinos, Chinese, Japanese and Vietnamese Settle in the United States by im-migrants</a></p>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@observablehq/inspector@5/dist/inspector.css">
+        <script type="module">
+        import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@5/dist/runtime.js";
+        import define from "https://api.observablehq.com/d/2822e82adfa94aba.js?v=4";
+        new Runtime().module(define, name => {
+          if (name === "chart") return new Inspector(document.querySelector("#observablehq-chart-b165abec"));
+        });
+        </script>
     </header>
 
 <!------------------------------------------------------------>
